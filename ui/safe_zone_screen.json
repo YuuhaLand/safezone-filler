@@ -1,0 +1,55 @@
+{
+  "namespace": "safe_zone",
+  
+  "content_panel": {
+    "type": "stack_panel",
+    "ttsSectionContainer": true,
+    "$label_bindings": [
+      {
+        "binding_name": "$option_label"
+      },
+      {
+        "binding_name": "$slider_tts_text_value"
+      }
+    ],
+    "controls": [
+      {
+        "safe_zone_slider_all@settings_common.option_slider": {
+          "$option_label": "#safe_zone_all_slider_label",
+          "$slider_name": "safe_zone_all",
+          "$slider_value_binding_name": "#safe_zone_all",
+          "$option_enabled_binding_name": "#safe_zone_all_enabled",
+          "$default_focus_precedence": 1,
+          "$slider_select_on_hover": false,
+          "$slider_tts_text_value": "#safe_zone_all_text_value"
+        }
+      },
+      {
+        "safe_zone_slider_y@settings_common.option_slider": {
+          "$option_label": "#safe_zone_y_slider_label",
+          "$slider_name": "safe_zone_y",
+          "$slider_value_binding_name": "#safe_zone_y",
+          "$option_enabled_binding_name": "#safe_zone_y_enabled",
+          "$slider_select_on_hover": false,
+          "$slider_tts_text_value": "#safe_zone_y_text_value"
+        }
+      },
+      {
+        "instruction_text_button@safe_zone.label_button": {
+          "offset": [ 0, 3 ],
+          "controls": [
+            {
+              "default@safe_zone.instructions_text": {}
+            },
+            {
+              "pressed@safe_zone.label_button_hover": {}
+            },
+            {
+              "hover@safe_zone.label_button_hover": {}
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

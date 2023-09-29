@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Safezone filler",
+    "description": "より小さいGUIにできます！\nby YuuhaLand",
+    "uuid": "32df110d-0015-4ba9-849a-1042e19b7ed3",
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [ 1, 13, 0 ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "dd500a0c-fe0d-4784-8c45-daedcfd4208b",
+      "version": [ 1, 0, 0 ]
+    }
+  ]
+}
